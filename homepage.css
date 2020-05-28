@@ -1,0 +1,57 @@
+
+
+
+header{
+    height: 350px;
+    border: solid 0px;
+    background-image: url(header1.jpg);
+    background-size: cover;
+}
+nav{
+	height: 50px;
+	border: solid 0px;
+	
+}
+#one{
+	height: 350px;
+	width: 400px;
+	border: solid 1px;
+
+}
+#two{
+	
+	height:350px;
+ width:1000px;
+ background-image: url(bank3.jpg);
+}
+#three{
+	border:solid 1px; 
+	height: 450px; 
+	width:400px;
+	background-image: radial-gradient(white, skyblue);
+	padding-left: 10px;
+}
+#four{
+	border: solid 1px;
+	height: 450px;
+	width: 900px;
+	padding-left: 20px;
+	text-align:inherit;
+	background-image: radial-gradient(white, skyblue);
+}
+footer{
+	height: 50px;
+	border: solid 1px;
+	background-color:black;
+	margin-top:10px;
+}
+.seven {
+    height: 35px;
+    width: 35px;
+}
+#nav{
+	background-color: lavender;
+	height: 45px;
+	border: solid 0px;
+margin-left: 15px;
+}

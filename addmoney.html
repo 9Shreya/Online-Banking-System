@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="transferFunds.css">
+</head>
+
+<body onload="showBalance()">
+    <header><br><br><br>
+        <p style="font-size:70px; color: white;">&nbsp;Online Banking <br>&nbsp;System</p>
+
+    </header>
+    <a href="homepage.html"><button class="btn btn-success" name="">Home</button></a>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-8">
+            <div name="editDesign">
+
+                
+                <div class="container-fluid">
+
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Name:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="text" id="name" value="" disabled>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Current Balance:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="text" id="balance" disabled>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Amount:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="number" class="one" id="amount">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Description:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="text" class="one" id="Description">
+                        </div>
+                    </div>
+                    
+                    <br>
+                    <div class="row">
+
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-5">
+                            <button type="button" class="btn btn-success" name="Edit" onclick="myFunction()">Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    
+
+    <table class="two" style="">
+        
+            <tr style="border: solid 2px; border-bottom: 0px;">
+            
+                <th style="padding-left: 100px; ">Amount</th>
+                <th>Description</th>
+            </tr>
+    
+    </table>
+    <table id="myTable" class="two">
+       
+    </table>
+    <br>
+   
+   
+    <footer>
+        <table>
+            <tr>
+                <td style="padding-left:10px; border: 0px; width: 0px;"><a target="_blank"
+                        href="https://www.google.com/maps/place/Gomti+Nagar,+Lucknow,+Uttar+Pradesh/@26.8449222,80.9745219,13z/data=!3m1!4b1!4m5!3m4!1s0x399bfd49fc60a843:0x92fc72e19b623f6a!8m2!3d26.8496217!4d81.0072193">
+                        <img class="seven" src="photos/address.jpg"></a></td>
+                <td style="border: 0px; width: 0px;"><a target="_blank"
+                        href="https://www.google.com/maps/place/Gomti+Nagar,+Lucknow,+Uttar+Pradesh/@26.8449222,80.9745219,13z/data=!3m1!4b1!4m5!3m4!1s0x399bfd49fc60a843:0x92fc72e19b623f6a!8m2!3d26.8496217!4d81.0072193">
+                        <h3 style="color: white">Gomti Nagar,Lucknow</h3>
+                    </a>
+                </td>
+                <td style="padding-left: 700px; border: 0px; width: 0px;"> <a target="_blank" href="https://www.facebook.com/">
+                    <img class="seven" src="photos/facebook.jpg"></a></td>
+                <td style="padding-left: 50px; border: 0px; width: 0px;"><a target="_blank" href="https://twitter.com/">
+                    <img class="seven" src="photos/twitter.jpg"></a></td>
+                <td style="padding-left: 50px; border: 0px; width: 0px; padding-right: 20px;"><a target="_blank"
+                        href="https://www.instagram.com/">
+                        <img class="seven" src="photos/insta.jpg"></a></td>
+
+            </tr>
+        </table>
+    </footer>
+
+    <script src="addmoney.js"></script>
+</body>
+
+</html>

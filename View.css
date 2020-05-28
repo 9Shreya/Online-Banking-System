@@ -1,0 +1,15 @@
+#one{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#two{
+    padding-right: 100px;
+    padding-left: 20px;
+}
+#three{
+    font-style: oblique;
+    background-image: radial-gradient(white, skyblue);
+    background-image: url(bank2.jpg);
+    background-size: cover;
+    color:black;
+}

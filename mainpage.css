@@ -1,0 +1,41 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #ccf2ff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.grid-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	margin: 15px;
+	font-size: 32px;
+	text-align: center;
+}
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.button1:hover {
+    background-color: rgb(26, 14, 202,.7);
+    color:white;
+}
+header{
+    height: 350px;
+    border: solid 0px;
+    background-image: url(header1.jpg);
+    background-size: cover;
+}
+footer{
+	height: 50px;
+	border: solid 1px;
+	background-color:black;
+	margin-top:0px;
+}
+.seven {
+    height: 35px;
+    width: 35px;
+}

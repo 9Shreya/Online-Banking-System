@@ -1,0 +1,92 @@
+section {
+    background-color: white;
+    margin-top: 200px;
+    height: 750px;
+    width: 360px;
+    transform: translateX(10%) translateY(-20%);
+    border-radius: 13px;
+    margin-left: 40px;
+}
+
+#one {
+    margin-left: 20px;
+    font-size: 30px;
+    color: maroon;
+    font-weight: bold;
+    font-style: initial;
+    margin-top: -100px;
+
+
+}
+#refresh{
+    margin-left: 100px;
+}
+#two {
+    margin-left: 10px;
+}
+
+#thr {
+    margin-left: 200px;
+    margin-right: 350px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.three {
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 8px;
+
+    border-color: cornflowerblue;
+}
+
+.four {
+    padding-left: 50px;
+    border-color: cornflowerblue 2px;
+    padding-top: 10px;
+}
+
+.five {
+    font-size: 25px;
+
+}
+
+.six {
+    background-image: url(photo1.jpg);
+    background-size: cover;
+}
+
+.button {
+    background-color: rgb(27, 14, 212);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(31, 17, 231);
+}
+
+.button1:hover {
+    background-color: rgb(26, 14, 202);
+    color: white;
+}
+
+.seven {
+    width: 192px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: cornflowerblue;
+}

@@ -1,0 +1,11 @@
+header{
+    height: 250px;
+    border: solid 0px;
+    background-image: url(feat.jpeg);
+    background-size: cover;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 25px
+}

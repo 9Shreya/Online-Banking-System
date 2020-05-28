@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        footer {
+            height: 50px;
+            border: solid 1px;
+            background-color: black;
+            margin-top: 10px;
+        }
+
+        .seven {
+            height: 35px;
+            width: 35px;
+        }
+
+        header {
+            height: 350px;
+            border: solid 0px;
+            background-image: url(header1.jpg);
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+
+<body onload="f4()">
+    <header><br><br><br>
+        <p style="font-size:70px; color: white;">&nbsp;Online Banking <br>&nbsp;System</p>
+    </header>
+    <a href="homepage.html"><button class="btn btn-success" name="">Home</button></a>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-8">
+            <div name="editDesign">
+
+                <form name="formId" onload="f4()" action=" "></form>
+                <br />
+                <div class="container-fluid">
+
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Account Number:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="text" id="accountnum"
+                                placeholder="Please Fill Account Number" autofocus>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Ifsc Code:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="text" placeholder="Please Fill IFSC Code" id="code">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Name:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="form-control" type="text" id="name" placeholder="Please Fill Name" value="">
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="row">
+
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-5">
+                            <button type="button" class="btn btn-success" name="Edit" onclick="f3()">Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <table>
+            <tr>
+                <td style="padding-left:10px"><a target="_blank"
+                        href="https://www.google.com/maps/place/Gomti+Nagar,+Lucknow,+Uttar+Pradesh/@26.8449222,80.9745219,13z/data=!3m1!4b1!4m5!3m4!1s0x399bfd49fc60a843:0x92fc72e19b623f6a!8m2!3d26.8496217!4d81.0072193"><img
+                            class="seven" src="photos/address.jpg"></a></td>
+                <td><a target="_blank"
+                        href="https://www.google.com/maps/place/Gomti+Nagar,+Lucknow,+Uttar+Pradesh/@26.8449222,80.9745219,13z/data=!3m1!4b1!4m5!3m4!1s0x399bfd49fc60a843:0x92fc72e19b623f6a!8m2!3d26.8496217!4d81.0072193">
+                        <h3 style="color: white">Gomti Nagar,Lucknow</h3>
+                    </a>
+                </td>
+                <td style="padding-left: 700px; "> <a target="_blank" href="https://www.facebook.com/"><img
+                            class="seven" src="photos/facebook.jpg"></a></td>
+                <td style="padding-left: 50px"><a target="_blank" href="https://twitter.com/"><img class="seven"
+                            src="photos/twitter.jpg"></a></td>
+                <td style="padding-left: 50px; padding-right: 20px;"><a target="_blank"
+                        href="https://www.instagram.com/"><img class="seven" src="photos/insta.jpg"></a></td>
+
+            </tr>
+        </table>
+    </footer>
+    <script src="addbenificiary.js"></script>
+
+</body>
+
+</html>

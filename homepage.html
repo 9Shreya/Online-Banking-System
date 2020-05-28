@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="homepage.css" />
+  </head>
+
+  <body>
+    <header>
+      <br /><br /><br />
+      <p style="font-size: 70px; color: white;">
+        &nbsp;Online Banking <br />&nbsp;System
+      </p>
+    </header>
+
+    <nav style="background-color: gray;">
+      <table style="margin-left: 10px;">
+        <tr>
+          <td style="padding-top: 10px;">
+            <button value="submit" class="button1" style="width: 100px;">
+              Home</button
+            >&nbsp;
+          </td>
+          <td style="padding-top: 10px;">
+            <a href="Featurs.html"
+              ><button value="submit" class="button1" style="width: 100px;">
+                Feature
+              </button></a
+            >&nbsp;
+          </td>
+          <td style="padding-top: 10px;">
+            <a href="Aboutus.html"
+              ><button value="submit" class="button1" style="width: 100px;">
+                About Us
+              </button></a
+            >&nbsp;
+          </td>
+          <td style="padding-top: 10px;">
+            <a href="contactus.html"
+              ><button value="submit" class="button1" style="width: 100px;">
+                Contact Us
+              </button></a
+            >&nbsp;
+          </td>
+          <td style="padding-top: -8px; padding-left: 750px;">
+            <button
+              data-target="#mymodel"
+              data-toggle="modal"
+              value="submit"
+              class="button1"
+              style="width: 100px;"
+            >
+              Sign in
+            </button>
+          </td>
+        </tr>
+      </table>
+    </nav>
+    <form action="mainpage.html" onsubmit="return validate()">
+      <div class="container">
+        <div class="modal" id="mymodel">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <table style="width: 100%;">
+                  <tr>
+                    <td>
+                      <h1 class="text-primary">SignUp</h1>
+                    </td>
+                    <td>
+                      <button
+                        type="button"
+                        style="float: right;"
+                        class="close"
+                        data-dismiss="modal"
+                      >
+                        &times;
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label><i class="fa fa-user fa-2x"></i>Username:</label>
+                  <input
+                    type="text"
+                    name=""
+                    class="form-control"
+                    id="Username"
+                    required
+                  />
+                  <p id="msg" style="color: red;"></p>
+                </div>
+                <div class="form-group">
+                  <label><i class="fa fa-lock fa-2x"></i>Password:</label>
+                  <input
+                    type="password"
+                    name=""
+                    class="form-control"
+                    id="Password"
+                    required
+                  />
+                  <p id="msgPass" style="color: red;"></p>
+                </div>
+                <div class="form-group">
+                  <label> <i class="fa fa-envelope-o fa-2x"></i> Email:</label>
+                  <input
+                    type="text"
+                    name=""
+                    class="form-control"
+                    id="Email"
+                    required
+                  />
+                  <p id="msgEmail" style="color: red;"></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <input
+                  type="submit"
+                  class="btn btn-danger"
+                  dstyle="width: 100px;"
+                  value="Sign In"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <table style="margin-left: 15px; margin-top: 10px;">
+      <tr>
+        <td>
+          <div class="w3-content w3-display-container">
+            <img
+              class="mySlides"
+              src="photos/Capture3.jpg"
+              style="width: 400px; height: 350px;"
+            />
+            <img
+              class="mySlides"
+              src="photos/Capture1.jpg"
+              style="width: 400px; height: 350px;"
+            />
+            <img
+              class="mySlides"
+              src="photos/Capture2.jpg"
+              style="width: 400px; height: 350px;"
+            />
+            <button
+              class="w3-button w3-black w3-display-left"
+              onclick="plusDivs(-1)"
+            >
+              &#10094;
+            </button>
+            <button
+              class="w3-button w3-black w3-display-right"
+              onclick="plusDivs(1)"
+            >
+              &#10095;
+            </button>
+          </div>
+        </td>
+        <td style="width: 20px;"></td>
+        <td id="two" style="column-gap: 10px; padding-left: 50px;">
+          <table>
+            <tr>
+              <td>
+                <a href="Tips.html"
+                  ><h2 style="color: black;">
+                    Click to read safe online banking tips
+                  </h2></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 40px;">
+                <a href="Terms.html"
+                  ><h2 style="color: black;">Terms and conditions</h2></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 40px;">
+                <a href="FAQ.html"><h2 style="color: black;">FAQ's</h2></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <nav id="nav">
+      <table style="margin-top: 10px; width: 100%;">
+        <tr>
+          <td
+            style="
+              border: solid 1px;
+              height: 45px;
+              width: 8%;
+              background-color: maroon;
+              color: white;
+              padding-left: 18px;
+              font-size: 20px;
+            "
+          >
+            Notice
+          </td>
+          <td style="height: 45px;">
+            <marquee
+              behavior=""
+              direction=""
+              style="color: red; font-size: 15px;"
+              >*Get personal loans starting at just Rs.1000 only @ 7% intrest,
+              offer valid only for prime customers,T&C* apply.
+            </marquee>
+          </td>
+        </tr>
+      </table>
+    </nav>
+    <table style="margin-left: 15px;">
+      <tr>
+        <td id="three">
+          <p style="text-align: inherit; font-size: 20px;">
+            <br />
+            Our internet banking portal provides personal banking services that
+            gives you complete control over all your banking demands online.
+          </p>
+          <b style="font-size: 25px;">Feature</b><br /><br />
+          <ul style="font-size: 20px;">
+            <li>Registration for online</li>
+            <li>Adding Beneficiary account</li>
+            <li>Funds Transfer</li>
+            <li>Last Login Record</li>
+            <li>Mini Statement</li>
+            <li>ATM and Cheque Book</li>
+            <li>Staff approval Feature</li>
+            <li>Account Statement by date</li>
+          </ul>
+        </td>
+        <td style="width: 20px;"></td>
+        <td id="four">
+          <b style="font-size: 25px;">PERSONAL BANKING</b><br /><br />
+          <ul style="font-size: 20px;">
+            <li>
+              Personal Banking application provides features to administer and
+              manage non personal accounts online.
+            </li>
+            <li>
+              Phishing is a fraudulent attempt, usually made through email,phone
+              calls,SMS etc seeking your personal and confidentiao information,
+              password or one time SMS(high security) password.
+            </li>
+            <li>
+              Any such e-mail/SMS or phone call is an attempt to fraudulently
+              withdraw money from your account through Internet Banking.
+            </li>
+            <li>
+              Never respond to such email/SMS or phone call.Please report
+              immediately on reportify you recieve any such email/SMS or Phone
+              call.
+            </li>
+            <li>Please lock your user access immediately.</li>
+            <br />
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <footer>
+      <table>
+        <tr>
+          <td style="padding-left: 10px;">
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/Gomti+Nagar,+Lucknow,+Uttar+Pradesh/@26.8449222,80.9745219,13z/data=!3m1!4b1!4m5!3m4!1s0x399bfd49fc60a843:0x92fc72e19b623f6a!8m2!3d26.8496217!4d81.0072193"
+              ><img class="seven" src="photos/address.jpg"
+            /></a>
+          </td>
+          <td>
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/Gomti+Nagar,+Lucknow,+Uttar+Pradesh/@26.8449222,80.9745219,13z/data=!3m1!4b1!4m5!3m4!1s0x399bfd49fc60a843:0x92fc72e19b623f6a!8m2!3d26.8496217!4d81.0072193"
+            >
+              <h3 style="color: white;">Gomti Nagar,Lucknow</h3>
+            </a>
+          </td>
+          <td style="padding-left: 700px;">
+            <a target="_blank" href="https://www.facebook.com/"
+              ><img class="seven" src="photos/facebook.jpg"
+            /></a>
+          </td>
+          <td style="padding-left: 50px;">
+            <a target="_blank" href="https://twitter.com/"
+              ><img class="seven" src="photos/twitter.jpg"
+            /></a>
+          </td>
+          <td style="padding-left: 50px; padding-right: 20px;">
+            <a target="_blank" href="https://www.instagram.com/"
+              ><img class="seven" src="photos/insta.jpg"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </footer>
+
+    <script src="homepage.js"></script>
+  </body>
+</html>

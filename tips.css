@@ -1,0 +1,9 @@
+header{
+    height: 250px;
+    border: solid 0px;
+    background-image: url(header1.jpg);
+    background-size: cover;
+}
+body{
+    background-image: radial-gradient(white, skyblue);
+}
